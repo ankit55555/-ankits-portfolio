@@ -1,0 +1,120 @@
+.hero {
+  width: 100%;
+  padding: 60px 0 40px;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 90px 0 60px;
+    min-height: 65vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    padding: 120px 0 80px;
+    min-height: 70vh;
+  }
+}
+
+.hero__wrapper {
+  width: 100%;
+  max-width: min(1100px, calc(100% - 40px));
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.hero__content {
+  width: 100%;
+  max-width: 100%;
+  display: grid;
+  gap: 18px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hero__content {
+    gap: 22px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero__content {
+    gap: 24px;
+  }
+}
+
+.hero__eyebrow {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.65);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.hero__title {
+  margin: 0;
+  font-size: clamp(48px, 8vw, 80px);
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  font-weight: 800;
+  color: white;
+}
+
+.hero__name {
+  display: block;
+  background: linear-gradient(135deg, #ffffff 0%, #a5b4fc 40%, #22d3ee 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero__subtitle {
+  margin: 0 auto;
+  max-width: 65ch;
+  color: rgba(255, 255, 255, 0.82);
+  line-height: 1.75;
+  font-size: clamp(16px, 2vw, 18px);
+}
+
+.hero__badges {
+  list-style: none;
+  padding: 0;
+  margin: 8px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.hero__badge {
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(8px);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.hero__badge:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
+}
+
+.hero__cta {
+  margin-top: 16px;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
