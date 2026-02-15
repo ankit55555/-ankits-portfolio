@@ -137,7 +137,7 @@ export const portfolio = {
         name: 'Jack & Jones - Fashion Retail',
         desc:
           'High-street fashion storefront with custom theme, performance tuning, and conversion-focused UX.',
-        url: 'https://www.jackandjones.com/',
+        url: 'https://jackjones.in//',
         tags: ['E-commerce', 'Custom Theme', 'Responsive', 'SEO', 'Performance'],
       },
       {
@@ -169,7 +169,7 @@ export const portfolio = {
         name: 'Vero Moda - Fashion Retail',
         desc:
           'Modern womenswear storefront with refined UI, advanced collection filters, and fast checkout experience.',
-        url: 'https://www.veromoda.com/',
+        url: 'https://www.veromoda.in/',
         tags: [
           'E-commerce',
           'Collection Filters',
